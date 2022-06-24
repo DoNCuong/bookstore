@@ -1,0 +1,64 @@
+@media (min-width: 768px) and (max-width: 992px) {
+    header {
+        background-image: url(https://writer.ancorathemes.com/wp-content/uploads/2020/12/image-9.jpg);
+        background-image: none;
+        height: 0%;
+    }
+    main nav.contact .title-5 input {
+        width: 40%;
+        margin: 0% 30%;
+        padding: 0% 1%;
+        font-size: 1rem;
+    }
+    
+    main nav.contact .title-5 button {
+        width: 26%;
+        margin: 1% 37%;
+        padding: 0 2%;
+        font-size: 0.8rem;
+    }
+    
+    footer .end .row [class*="col-"] .logo a {
+        font-weight: bold;
+        color: #6c5ba1;
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 767px) {
+    main nav.contact .title-5 p {
+        font-size: 1.5rem;
+    }
+
+    header {
+        background-image: url(https://writer.ancorathemes.com/wp-content/uploads/2020/12/image-9.jpg);
+        background-image: none;
+        height: 0%;
+    }
+        main nav.contact .title-5 input {
+            width: 30%;
+            margin: 0% 35%;
+            padding: 0% 4%;
+            font-size: 0.8rem;
+        }
+        
+        main nav.contact .title-5 button {
+            width: 16%;
+            margin: 1% 42%;
+            padding: 0 2%;
+            font-size: 0.7rem;
+            letter-spacing: 0.2rem;
+        }
+        
+        footer .end .row [class*="col-"] .logo a {
+            font-size: 2rem;
+        }
+        
+        footer .end .row [class*="col-1"] p {
+            font-size: 1rem;
+            line-height: 1rem;
+        }
+        
+        footer .end .row [class*="col-3"] p i {
+            padding: 0 0 0 10%;
+        }
+        }
