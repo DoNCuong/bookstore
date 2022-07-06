@@ -1,0 +1,32 @@
+@media (min-width: 768px) and (max-width: 992px){
+    main form {
+        width: 58%;
+        margin: 7% 21%;
+        background-color: rgba(255, 255, 25, 0.72);
+    }
+    main form input{
+            margin: 3% 5%;
+    }
+    main form p {
+        color: rgba(137, 43, 226, 0.643);
+    }
+    main form p a{
+        color: black;
+    }
+}
+@media (max-width: 767px){
+    main form {
+        width: 84%;
+        margin: 7% 8%;
+        background-color: rgba(255, 255, 25, 0.72);
+    }
+    main form input {
+        margin: 2% 5%;
+    }
+    main form p {
+        color: rgba(137, 43, 226, 0.643);
+    }
+    main form p a {
+        color: black;
+    }
+}

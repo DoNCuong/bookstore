@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url("./images/img49.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+form {
+    width: 60%;
+    background-color: rgba(106, 88, 48, 0.831);
+    height: 96%;
+    margin: 10% 20%;
+    border-radius: 15px;
+    padding: 2% 0;
+}
+
+form h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+form input {
+    width: 90%;
+    margin: 10px 35px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+form .button button {
+    margin: 10px 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+form .button button a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form p {
+    color: rgb(255, 255, 0);
+    text-align: center;
+}
+
+form p a {
+    color: rgba(255, 255, 255, 0.704);
+    font-style: italic;
+}

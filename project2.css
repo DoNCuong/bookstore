@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* - - - - - css for header - - - - - */
+
+.clear {
+    clear: both;
+}
+
+/* - - - - - css for main - - - - - */
+main .carousel img {
+    height: 700px;
+}
+main .aboutUs {
+    background: -webkit-linear-gradient(to right, #599fd9, #ffffff);
+    background: linear-gradient(to top, #393e468a, #ffffff8c);
+    padding: 3% 5%;
+}
+main .maincontent {
+    padding: 50px;
+}
+main .aboutUs .maincontent [class*="col-1"] {
+    float: left;
+    padding: 15px;
+    width: 40%;
+}
+main .aboutUs .maincontent [class*="col-2"] {
+    width: 30%;
+}
+main .aboutUs .maincontent [class*="col-3"] {
+    width: 30%;
+}
+main .aboutUs .maincontent .row .col-3 img{
+    height: 100%;
+    width: 100%;
+}
+main .aboutUs .maincontent .row img {
+    width: 90%;
+    height: 50%;
+    padding: 2%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+main .oshop .product .title h2{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 2% 0;
+}
+main .oshop .product .title p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+main nav.oushop{
+    background: -webkit-linear-gradient(to right, #599fd9, #ffffff);
+    background: linear-gradient(to bottom, #393e468a, #00ff628c);
+    padding: 3% 5%;
+}
+main nav.oushop .oshop .product{
+    width: 90%;
+    margin: 5% 5%;
+}
+main nav.oushop .oshop .product [class*="col-"] {
+    padding: 40px;
+    width: 25%;
+}
+main nav.oushop .oshop .product .row img {
+    width: 100%;
+    height: 100%;
+}
+main nav.oushop .oshop .product #btn{
+    margin: 0 44%;
+    padding: 1% 2%;
+}
+main nav.oushop .oshop .product .row {
+    width: 100%;
+}
+main nav.oushop .oshop .product h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+main nav.oushop .oshop .product h5{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+}
+main nav.oushop .oshop .product p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+/* - - - - - css nav.new - - - - - */
+main nav.new{
+    background: linear-gradient(to bottom, #00ff628c, #ff22008a);
+    padding: 3% 5%;
+}
+main nav.new .title-2 h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 2% 0;
+}
+main nav.new .title-2 p {
+    text-align: center;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+    font-size: 4rem;
+}
+main nav.new .b-update .row [class*="col-8"]{
+    width: 70%;
+}
+main nav.new .b-update .row [class*="col-9"] {
+    width: 30%;
+}
+main nav.new .b-update .row .col-8 .top{
+    width: 100%;
+    height: 70%;
+}
+main nav.new .b-update .row .col-8 .top img{
+    width: 100%;
+    height: 100%;
+}
+main nav.new .b-update .row .col-8 .bott{
+    width: 100%;
+    height: 30%;
+    padding: 1% 3%;
+}
+main nav.new .b-update .row .col-9 .row [class*="col-"] {
+    width: 45%;
+    height: 30%;
+    padding-bottom: 5%;
+}
+main nav.new .b-update .row .col-9 .row [class*="col-"] .img-text img {
+    width: 100%;
+    height: 100%;
+}
+/* css font of nav.new */
+main nav.new .b-update .row .col-8 .bott h3{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main nav.new .b-update .row .col-8 .bott p{
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main nav.new .b-update .row .col-8 .bott #fb{
+    color: rgba(255, 233, 105, 0.778);
+}
+main nav.new .b-update .row .col-9 .row [class*="col-"] .img-content a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+main nav.new .b-update .row .col-9 .row [class*="col-"] .img-content h4{
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-family: monospace;
+    color: rgba(163, 136, 136, 0.65);
+}
+main nav.new .b-update .row .col-9 .row [class*="col-"] .img-content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+/* - - - - - css nav.offer - - - - - */
+nav.offer {
+    background: linear-gradient(to top, #009dff8c, #ff22008a);
+    padding: 3% 5%;
+}
+nav.offer .title-3 h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 2% 0;
+}
+nav.offer .title-3 h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #fff;
+}
+nav.offer .title-3 h5{
+    text-align: center;
+    font-family: 'Times New Roman',
+    Times,
+    serif;
+    font-weight: bold;
+    font-style: italic;
+}
+nav.offer .title-3 p {
+    text-align: center;
+    font-family: 'Times New Roman',
+        Times,
+        serif;
+    font-size: 4rem;
+}
+main nav.offer{
+    width: 100%;
+    height: 100%;
+}
+
+main nav.offer .main-img .row [class*="col-"]{
+    width: 33%;
+    height: 100%;
+}
+main nav.offer .main-img .row [class*="col-"] img{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+}
+main nav.offer .main-img .row [class*="col-"] h5{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+}
+main nav.offer .main-img .row [class*="col-"] p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+/* - - - - - css nav.ideas - - - - - */
+main nav.ideas {
+    background: linear-gradient(to bottom, #009dff8c, #000000cc);
+    padding: 3% 5%;
+}
+main nav.ideas .title-4 h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 2% 0;
+}
+main nav.ideas .title-4 p {
+    text-align: center;
+    font-family: 'Times New Roman',
+        Times,
+        serif;
+    font-size: 4rem;
+}
+main nav.ideas .img-text .row [class*="col-"]{
+    width: 33%;
+    height: 100%;
+} 
+main nav.ideas .img-text .row [class*="col-"] img{
+    width: 100%;
+    height: 100%;
+    padding: 1.2rem;
+}
+main nav.ideas .img-text .row [class*="col-"] h5{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    padding: 1rem 0;
+    color: rgb(155, 189, 251);
+}
+main nav.ideas .img-text .row [class*="col-"] p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(155, 189, 251);
+}
+main nav.ideas .img-text .row [class*="col-"] h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(155, 189, 251);
+}
+/* - - - - - css nav.contact - - - - - */
+main nav.contact {
+    background: linear-gradient(to top, #000000, #000000cc);
+    padding: 3% 5%;
+}
+main nav.contact .title-5 h2 {
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 2% 0;
+}
+main nav.contact .title-5 p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Times New Roman',
+        Times,
+        serif;
+    font-size: 4rem;
+}
+main nav.contact .title-5 input{
+    width: 30%;
+    margin: 0% 35%;
+    padding: 1% 2%;
+    font-size: 1.5rem;
+}
+main nav.contact .title-5 button{
+    width: 14%;
+    margin: 1% 43%;
+    padding: 0 2%;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+/* - - - - - css for footer - - - - - */
+/* - - - - - css nav.end - - - - - */
+footer {
+    background-color: rgba(137, 137, 213, 0.383);
+    padding: 3% 5%;
+}
+footer .end{
+    padding: 2% 5%;
+}
+footer .end .row [class*="col-"]{
+    width: 33%;
+    padding: 0.15rem;
+}
+footer .end .row [class*="col-1"] p{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 2rem;
+}
+footer .end .row [class*="col-"] .logo p{
+    text-align: center;
+}
+footer .end .row [class*="col-"] .logo a{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer .end .row [class*="col-3"] p{
+    text-align: right;
+}
+footer .end .row [class*="col-3"] p i{
+    font-size: 2.8rem;
+    padding: 8% 0 0 5%;
+}
+#start i{
+    font-size: 3.5rem;
+}
+#start{
+    text-decoration: none;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#finish i {
+    font-size: 3.5rem;
+}
+#finish{
+    text-decoration: none;
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
